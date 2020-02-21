@@ -1,0 +1,16 @@
+img {
+  height: 150px;
+  width: 150px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+body {
+  background-color: dimgray;
+}
+.jumbotron {
+  color: white;
+  background-color: #444444;
+}
+div {
+  color: #ffffff;
+}
