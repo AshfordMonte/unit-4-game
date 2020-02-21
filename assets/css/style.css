@@ -1,18 +1,18 @@
 img {
   height: 150px;
   width: 150px;
-  background-color: #ffffff;
+  background-color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
 body {
-  background-color: dimgray;
+  background-color: #f5f5f5;
 }
 .jumbotron {
   color: white;
   background-color: #560e5f;
 }
 div {
-  color: #ffffff;
+  color: #f5f5f5;
 }
 .instructions ,
 .gameinfo {
