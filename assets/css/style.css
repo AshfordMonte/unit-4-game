@@ -9,8 +9,31 @@ body {
 }
 .jumbotron {
   color: white;
-  background-color: #444444;
+  background-color: #560e5f;
 }
 div {
   color: #ffffff;
+}
+.instructions ,
+.gameinfo {
+  background-color: rgb(46, 71, 139);
+  border-style: solid;
+  border-radius: 2px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+#row2 {
+  margin-top: 100px;
+}
+#row3 {
+  margin-top: 100px;
+}
+.total-score {
+  background-color: #126326;;
+  border-style: solid;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+.gems {
+  margin-bottom: 30px;
 }
