@@ -8,7 +8,7 @@ $(document).ready(function () {
   var totalScore = 0; // Variable to store user score
   $("#total-score").text(totalScore);
 
-  var targetNum = Math.floor(50 + Math.random() * 80); // Calculates random target number
+  var targetNum = Math.floor( Math.random() * (120 - 19 + 1)) + 19; // Calculates random target number
   $("#target-num").text(targetNum);
 
   // Allows easier manipulation of gem elements
@@ -108,7 +108,7 @@ $(document).ready(function () {
     // Assigns random number to gem while not being the same as the others
     gem2.attr("data-crystalvalue", Math.floor(1 + Math.random() * 12));
     while (gem2.attr("data-crystalvalue") === gem1.attr("data-crystalvalue")) {
-      gem2.attr("data-crystalvalue", Math.floor(1 + Math.random() * 15));
+      gem2.attr("data-crystalvalue", Math.floor(1 + Math.random() * 12));
     }
   
     // Assigns random number to gem while not being the same as the others
